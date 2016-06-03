@@ -337,6 +337,63 @@
 
 	@media screen and (max-width: 1680px) {
 
+		#navBar {
+			width: auto;
+	    height: auto;
+	    /*background-color: rgba(0, 0, 0, 0.31);*/
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+		}
+
+		#navBar img {
+			height: 6em;
+			padding-left: 3%;
+			padding: 10px;
+	    margin: 17px;
+		}
+
+		.headerFooter {
+			/* width: 100%; */
+	    /*background-color: red;*/
+	    /* height: auto; */
+	    bottom: 0px;
+	    position: absolute;
+	    /* left: 0; */
+	    /* position: fixed; */
+	    /* top: 50%; */
+	    left: 50%;
+	    transform: translate(-50%);
+			list-style: none;
+			margin: 10px 0 41px 0;
+
+		}
+
+		#header .headerFooter li .button {
+			box-shadow: none
+		}
+
+		#header .button {
+			box-shadow: inset 0 0 0 2px white;
+		}
+
+		.learnMore {
+			border: none;
+			box-shadow: none;
+			font-size: 20px;
+		}
+
+		.learnMore a {
+			border: none;
+			box-shadow: none;
+			font-size: 20px;
+		}
+
+		.blogButton {
+		box-shadow:	inset 0 0 0 2px white;
+		border-radius: 5px;
+		}
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -1197,6 +1254,72 @@
 
 	@media screen and (max-width: 480px) {
 
+		.headerPhone {
+				 /*background-color: red;*/
+				width: auto;
+				height: 100%;
+				padding-top: 10%;
+		}
+
+		#navBar {
+			width: auto;
+	    height: auto;
+	    /*background-color: rgba(0, 0, 0, 0.31);*/
+	    position: absolute;
+	    top: 0px;
+	    left: 0px;
+		}
+
+		#navBar img {
+			height: 6em;
+			padding-left: 3%;
+			padding: 10px;
+	    margin: 0px;
+		}
+
+		.headerFooter {
+			/* width: 100%; */
+	    /*background-color: red;*/
+	    /* height: auto; */
+	    bottom: 0px;
+	    position: absolute;
+	    /* left: 0; */
+	    /* position: fixed; */
+	    /* top: 50%; */
+	    left: 50%;
+	    transform: translate(-50%);
+			list-style: none;
+			margin: 10px 0 41px 0;
+
+		}
+
+		#header .headerFooter li .button {
+			box-shadow: none
+		}
+
+		#header .button {
+			box-shadow: inset 0 0 0 2px white;
+		}
+
+		.learnMore {
+			border: none;
+			box-shadow: none;
+			font-size: 20px;
+		}
+
+		.learnMore a {
+			border: none;
+			box-shadow: none;
+			font-size: 20px;
+		}
+
+		.blogButton {
+		box-shadow:	inset 0 0 0 2px white;
+		border-radius: 5px;
+		}
+
+
+
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -1411,6 +1534,13 @@
 	}
 
 	@media screen and (max-width: 360px) {
+
+		.headerPhone {
+		     /*background-color: red;*/
+		    width: auto;
+		    height: 100%;
+		    padding-top: 10%;
+		}
 
 		.row > * {
 			padding: 0 0 0 1.5em;
